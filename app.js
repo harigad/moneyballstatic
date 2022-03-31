@@ -4,8 +4,8 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    "minimum_version": "0.4.3",
-    "upgrade_url": "https://app.bitrise.io/artifact/119172817/p/9ec1f159e32ba9ffedec9bf84e7ad045?source=ship",
+    "minimum_version": "0.4.4",
+    "upgrade_url": "https://app.bitrise.io/artifact/119791611/p/eedc20f1558010e10cad7ed842fd686a?source=ship",
     "can_skip": true
   }
   );
