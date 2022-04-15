@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.json({
     "minimum_version": "0.5.0",
     "upgrade_url": "https://app.bitrise.io/build/b9296ff1-dcd2-4a68-8040-5ade53f9807e",
-    "can_skip": false
+    "can_skip": true
   }
   );
 })
